@@ -1,3 +1,8 @@
+// api/fetch-ogp.js
+
+import axios from 'axios';
+import cheerio from 'cheerio';
+
 export default async (req, res) => {
     // CORSヘッダーの設定
     res.setHeader('Access-Control-Allow-Origin', '*');
